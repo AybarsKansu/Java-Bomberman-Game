@@ -1,4 +1,3 @@
-
 package background;
 
 import java.awt.Color;
@@ -46,18 +45,18 @@ public class Manager {
 	public void getImage() {
 		try {
 			bg[1] = new Background();
-			bg[1].image = ImageIO.read(getClass().getResourceAsStream("background/strongWall.png"));
+			bg[1].image = ImageIO.read(getClass().getResourceAsStream("/background/strongWall.png"));
 			bg[1].bump = true;
 			
 			bg[2] = new Background();
-			bg[2].image = ImageIO.read(getClass().getResourceAsStream("background/brokenWall.png"));
+			bg[2].image = ImageIO.read(getClass().getResourceAsStream("/background/brokenWall.png"));
 			bg[2].bump = true;
 
 			bg[0] = new Background();
-			bg[0].image = ImageIO.read(getClass().getResourceAsStream("background/grass.png"));
+			bg[0].image = ImageIO.read(getClass().getResourceAsStream("/background/grass.png"));
 			
 			bg[3] = new Background();
-			bg[3].image = ImageIO.read(getClass().getResourceAsStream("background/door.png"));
+			bg[3].image = ImageIO.read(getClass().getResourceAsStream("/background/door.png"));
 			
 			bg[4] = new Background();
 			PowerUp powera = new PowerUp(gp);
