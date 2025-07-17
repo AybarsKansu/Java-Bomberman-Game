@@ -38,9 +38,9 @@ public class Bomb{
 
     public void getImage() {
         try {
-            image = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/bomb1.png"));
-            image2 = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/bomb2.png"));
-            image3 = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/bomb3.png"));
+            image = ImageIO.read(new File("image/object/bomb1.png"));
+            image2 = ImageIO.read(new File("image/object/bomb2.png"));
+            image3 = ImageIO.read(new File("image/object/bomb3.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

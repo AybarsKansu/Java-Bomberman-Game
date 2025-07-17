@@ -34,13 +34,13 @@ public class RedMonster extends Entity implements Runnable {
 	}
 	
 	public void getImage() throws IOException {
-		left1 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMleft1.png")));
-		left2 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMleft2.png")));
-		right1 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMright1.png")));
-		right2  = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMright2.png")));
-		stand = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMstanding.png")));
-		dead1 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMdead1.png")));
-		dead2 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/redMdead2.png")));
+		left1 = ImageIO.read((new File("image/monster/redMleft1.png")));
+		left2 = ImageIO.read((new File("image/monster/redMleft2.png")));
+		right1 = ImageIO.read((new File("image/monster/redMright1.png")));
+		right2  = ImageIO.read((new File("image/monster/redMright2.png")));
+		stand = ImageIO.read((new File("image/monster/redMstanding.png")));
+		dead1 = ImageIO.read((new File("image/monster/redMdead1.png")));
+		dead2 = ImageIO.read((new File("image/monster/redMdead2.png")));
 	}
 	
 	public void run() {

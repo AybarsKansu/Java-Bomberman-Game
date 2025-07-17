@@ -34,10 +34,10 @@ public class BlueMonster extends Entity implements Runnable{
 	}
 	
 	public void getImage() throws IOException {
-		left1 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/BlueMonsterleft1.png")));
-		left2 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/blueleft2.png")));
-		right1 = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/blueright1.png")));
-		right2  = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/monster/blueright2.png")));
+		left1 = ImageIO.read((new File("image/monster/BlueMonsterleft1.png")));
+		left2 = ImageIO.read((new File("image/monster/blueleft2.png")));
+		right1 = ImageIO.read((new File("image/monster/blueright1.png")));
+		right2  = ImageIO.read((new File("image/monster/blueright2.png")));
 	}
 	
 	public void run() {

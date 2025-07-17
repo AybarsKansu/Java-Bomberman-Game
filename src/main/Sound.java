@@ -10,8 +10,8 @@ public class Sound {
 	File sounds[] = new File[2];
 	
 	public Sound() throws MalformedURLException {
-		sounds[0] = new File("C:\\Users\\Aybars\\eclipse-workspace\\Homework\\image\\sound\\bomberman_theme.wav");
-		sounds[1] = new File("C:\\Users\\Aybars\\eclipse-workspace\\Homework\\image\\sound\\minecraft bomb effect.wav");
+		sounds[0] = new File("image\\sound\\bomberman_theme.wav");
+		sounds[1] = new File("image\\sound\\minecraft bomb effect.wav");
 		
 	}
 	

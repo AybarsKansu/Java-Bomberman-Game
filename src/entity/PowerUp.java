@@ -31,7 +31,7 @@ public class PowerUp extends Entity {
 	}
 	
 	public void getImage() throws IOException {
-		BufferedImage image = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/powers.png"));
+		BufferedImage image = ImageIO.read(new File("image/object/powers.png"));
 		yellow = image.getSubimage(0, 0, gp.originalTileSize, gp.originalTileSize); // bomb number expansion
         green = image.getSubimage(gp.originalTileSize, 0, gp.originalTileSize, gp.originalTileSize); // bomb radius expansion
         blue = image.getSubimage(gp.originalTileSize * 2, 0, gp.originalTileSize, gp.originalTileSize); // weak wall passing

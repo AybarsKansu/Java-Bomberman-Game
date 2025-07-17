@@ -228,7 +228,7 @@ public class GamePanel extends JPanel implements Runnable {
 	}
 	
 	public void drawHealth(Graphics2D g2) throws IOException {
-		BufferedImage image = ImageIO.read((new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/health1.png")));
+		BufferedImage image = ImageIO.read((new File("image/object/health1.png")));
 		for(int i = 0; i < health + 1; i++)
 			g2.drawImage(image, i * tileSize, -20, 2 * tileSize, 2* tileSize, null);
 	}

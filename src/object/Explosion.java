@@ -35,9 +35,9 @@ public class Explosion {
 	
 	public void getImage() {
         try {
-            imageup = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/explosionup.png"));
-            imageleft = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/explosionleft.png"));
-            imagecenter = ImageIO.read(new File("C:/Users/Aybars/eclipse-workspace/Homework/image/object/explosioncenter.png"));
+            imageup = ImageIO.read(new File("image/object/explosionup.png"));
+            imageleft = ImageIO.read(new File("image/object/explosionleft.png"));
+            imagecenter = ImageIO.read(new File("image/object/explosioncenter.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
